@@ -3,14 +3,14 @@
 
 const name: string = 'ocelote';
 
-let hpPoints: number | string = 95;
+let hpPoints: number | `FULL` = 95;
 
-hpPoints = 'Full';
-
-
+const isAlive: boolean = true;
 
 
 
+
+console.log({name, isAlive, hpPoints});
 
 
 export {};
